@@ -7,6 +7,9 @@ Criar uma API com socket para um chat de atendimento ao cliente.
 ### Instalando as dependências:
 `yarn install` ou `npm install`
 
+### Rodando as Migrations
+`yarn typeorm migration:run` ou `npm typeorm migration:run`
+
 ### Iniciando o servidor
 `yarn dev` ou `npm dev`
 

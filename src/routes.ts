@@ -19,7 +19,9 @@ routes.get("/", (request, response) => {
 // SETTINGS
 routes.post("/settings", settingsController.create)
 routes.get("/settings", settingsController.findAll)
-routes.get("/settings/:id", settingsController.show)
+// routes.patch("/settings/show/:id", settingsController.show)
+routes.get("/settings/:username", settingsController.findByUsername)
+routes.put("/settings/:username", settingsController.update)
 
 // USERS
 routes.post("/users", usersController.create)
